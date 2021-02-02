@@ -1,0 +1,84 @@
+.img{
+  vertical-align:bottom;
+  max-width: 750px;
+  width: 100%;
+}
+
+div {
+  width: 100%;
+  text-align: center;
+}
+
+.video{
+  width:100%;
+  padding-top:56.25%;
+  padding: 0;
+}
+.video iframe{
+  position:absolute;
+  top: 50%;  
+  max-height: 40%; 
+  margin: 0 auto;   
+  max-width: 90%; 
+  transform: translateX(-50%); 
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.video1 {
+  width:100%;
+  padding-top:56.25%;
+  padding: 0;
+}
+.video1 iframe{
+  position:absolute;
+  top: 30%;  
+  max-height: 30%; 
+  margin: 0 auto;   
+  max-width: 90%; 
+  transform: translateX(-50%); 
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.video2 {
+  width:100%;
+  padding-top:56.25%;
+  padding: 0;
+}
+.video2 iframe{
+  position:absolute;
+  top: 65%;  
+  max-height: 30%; 
+  margin: 0 auto;   
+  max-width: 90%; 
+  transform: translateX(-50%); 
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+
+.video3 {
+  width:100%;
+  padding-top:56.25%;
+  padding: 0;
+}
+.video3 iframe{
+  position:absolute;
+  top: 72%;  
+  max-height: 20%; 
+  margin: 0 auto;   
+  max-width: 90%; 
+  transform: translateX(-50%); 
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+#audio_area .audio {
+  display: inline-block;
+  transition: all 0.3s;
+  cursor: pointer;
+ }
+ #audio_area .audio:hover {
+  opacity: 0.6;
+ }

@@ -1,0 +1,72 @@
+
+$(function () {
+	var audio = $("#audio").get(0);
+	var isPlaying = false;
+	$("#btn").on("click", function () {
+		if (isPlaying) {
+			audio.pause();
+		} else {
+			audio.play();
+		}
+	});
+	audio.onplaying = function() {
+		isPlaying = true;
+	};
+	audio.onpause = function() {
+		isPlaying = false;
+	};
+});
+
+$(function () {
+	var audio = $("#audio1").get(0);
+	var isPlaying = false;
+	$("#btn1").on("click", function () {
+		if (isPlaying) {
+			audio.pause();
+		} else {
+			audio.play();
+		}
+	});
+	audio.onplaying = function() {
+		isPlaying = true;
+	};
+	audio.onpause = function() {
+		isPlaying = false;
+	};
+});
+Links/K-2-I6 僕この家にこれて幸せだな〜.wav
+Links/K-2-I6 僕この家にこれて幸せだな〜.mp3
+Links/K-2-M14.wav
+Links/K-2-M14.mp3
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Howler.js Tests</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div id="container">
+    <button class="button" id="webaudio">RUN WEB AUDIO TESTS</button>
+    <button class="button" id="html5">RUN HTML5 TESTS</button>
+    <button class="button" id="spatial">RUN SPATIAL TESTS</button>
+  </div>
+
+  <script>
+    document.getElementById('webaudio').onclick = function() {
+      window.location = 'core.webaudio.html';
+    };
+
+    document.getElementById('html5').onclick = function() {
+      window.location = 'core.html5audio.html';
+    };
+
+    document.getElementById('spatial').onclick = function() {
+      window.location = 'spatial.html';
+    };
+  </script>
+</body>
+</html>
